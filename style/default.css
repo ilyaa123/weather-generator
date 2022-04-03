@@ -1,0 +1,56 @@
+/* roboto-300 - latin_cyrillic */
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+    background-color: #fff;
+    color: #212121;
+    line-height: 1.3;
+    font-weight: 300;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+button{
+    cursor: pointer;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,p{
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+
