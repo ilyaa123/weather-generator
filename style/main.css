@@ -54,3 +54,31 @@ body{
     margin: 10px 0;
     border-radius: 5px;
 }
+.day-header{
+    margin: 25px 0 15px 0; 
+    text-align: center;
+}
+.day-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.day-list > li{
+    padding: 10px;
+    border-radius: 5px;
+}
+.ul-default{
+    background-color: #dddddd;
+}
+.ul-active{
+    background-color: #5bb2ff;
+    cursor: pointer;
+}
+@media (max-width: 664px) {
+    .search{
+        width: 300px;
+    }
+    .weather-content{
+        width: 300px;
+    }
+}

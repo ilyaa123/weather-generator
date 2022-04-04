@@ -62,7 +62,6 @@ const renderCard = (data) => {
         <p>Влажность: ${humidity}%</p>
     `;
     weatherContainer.append(div);
-    showElem(div);
 };
 
 const init = async (lat, lon) => {
@@ -91,6 +90,7 @@ const getCity = async (cityValue) => {
         showError()
     }
 };
+
 const documentReady = () => {
     navigator.geolocation.getCurrentPosition(
         function(position){
@@ -111,4 +111,5 @@ const documentReady = () => {
         }
     )
 }
+
 documentReady();
